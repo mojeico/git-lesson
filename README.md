@@ -128,7 +128,7 @@ c740932 HEAD@{7}: checkout: moving from main to feature
 - git rebase master   - rebase master to current branch (move all commits from master to current branch, but compress all commits from master to one commit  )
 - git rebase --abort  - return to version before rebase if we have problems
 
-- git rebase 
+- git rebase -i HEAD~3 - compress 3 commits to one 
 
 
 git merge  - create new commit in your branch 
