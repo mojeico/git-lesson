@@ -72,10 +72,9 @@
 
 # Git merge 
 
-- git merge branch_name -> merge branch_name to current branch
+- git merge branch_name          -> merge branch_name to current branch
 
-
-- git reset --hard commit_hash 
+- fit merge --squash branch_name -> merge branch_name to current branch 
 
 
 # Git reflog - track branches
@@ -112,6 +111,26 @@ c740932 HEAD@{7}: checkout: moving from main to feature
 
 # Git diff 
 
+- git diff master feature  -> compare master with feature 
+
+- git diff       -> compare index with working directory 
+- git diff HEAD  -> compare HEAD (last commit ) with working directory
 
 
+# Git cherry-pick
+
+- git cherry-pick hash_commit  -> copy commit to current branch
+
+
+# Git rebase 
+
+
+- git rebase master   - rebase master to current branch (move all commits from master to current branch, but compress all commits from master to one commit  )
+- git rebase --abort  - return to version before rebase if we have problems
+
+- git rebase 
+
+
+git merge  - create new commit in your branch 
+git rebase - attach your BRANCH to last commit of master # https://mcs.mail.ru/blog/rukovodstvo-po-git-zolotoe-pravilo-i-drugie-osnovy-rebase 
 
