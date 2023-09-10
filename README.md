@@ -42,3 +42,21 @@
 
 
 
+
+# Git show all branches + last commit 
+
+- git branch -v 
+
+
+
+# Git create new branch 
+
+-  git branch feature
+
+# Git switch to branch 
+
+- git checkout feature
+- igt checkout -b feature   -> create branch + checkout 
+
+
+
