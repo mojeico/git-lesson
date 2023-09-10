@@ -75,8 +75,42 @@
 - git merge branch_name -> merge branch_name to current branch
 
 
+- git reset --hard commit_hash 
 
 
+# Git reflog - track branches
+
+
+- git reflog  
+
+33225e1 (HEAD -> main, origin/main, origin/HEAD) HEAD@{0}: commit: reafactoring main
+fbf0325 (origin/feature) HEAD@{1}: merge feature: Fast-forward
+b2d07d5 HEAD@{2}: checkout: moving from feature to main
+fbf0325 (origin/feature) HEAD@{3}: commit: udpate README.md
+3cd0dc3 HEAD@{4}: commit: udpate README.md
+5b63175 HEAD@{5}: commit: update README file
+c740932 HEAD@{6}: reset: moving to HEAD
+c740932 HEAD@{7}: checkout: moving from main to feature
+
+
+
+
+# Git restore branch from reflog
+
+- git branch feature HEAD@{2}
+
+
+# Git remove untracked files 
+
+- git clean -dxf  ->   d folers | x file from .gitignore | f files 
+
+# Git reset (doesn't work with untracked files)
+
+- git reset --hard commit_hash  -> reset to commit_hash
+- git reset --hard HEAD         -> reset to last commit
+
+
+# Git diff 
 
 
 
