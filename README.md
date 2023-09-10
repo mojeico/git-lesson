@@ -58,7 +58,7 @@
 - git checkout feature
 - git checkout -b feature                    -> create branch + checkout 
 - git checkout -f branch_name                -> delete uncommit files and changes 
-- git checkout -B branch_name 3j34r91fe      -> checkout to branch with commit hash 
+- git checkout -B branch_name 3j34r91fe      -> checkout to branch with commit hash (return old version of branch) 
 - git checkout 438j83gjf3 file_name_and_path -> checkout file from commit (return file to "old"" version )
 
 
