@@ -17,9 +17,14 @@
 
 
 
-# Git add + commit 
+# Git add + commit all files (without untracked files )
 
 - git commit -am "git add + git commit without untracked files "
+
+
+# Git add + commit for one file (not for untrack)
+
+- git commit -m "add + commit for one file " my_file_name
 
 
 
@@ -29,6 +34,9 @@
 - git show 4faa7df241ef2f8353c8ad61d86a565256b1234b
 
 
+# Delete file + add deleted file  -> rm file + git add file  
+
+- git rm index.html
 
 
 
