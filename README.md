@@ -10,10 +10,16 @@
 
 
 
-# Git add + commit 
+# Git add and commit 
 
 - git add first_file
 - git commit -m "add first file
+
+
+
+# Git add + commit 
+
+- git commit -am "git add + git commit without untracked files "
 
 
 
