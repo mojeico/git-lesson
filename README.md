@@ -56,7 +56,7 @@
 # Git switch to branch 
 
 - git checkout feature
-- igt checkout -b feature   -> create branch + checkout 
+- git checkout -b feature   -> create branch + checkout 
 
 
 
