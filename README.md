@@ -70,6 +70,11 @@
 - git stash pop - return uncommited files 
 
 
+# Git merge 
+
+- git merge branch_name -> merge branch_name to current branch
+
+
 
 
 
