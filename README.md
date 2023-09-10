@@ -16,3 +16,15 @@
 - git commit -m "add first file
 
 
+
+# Git show last commit or commit with hash 
+
+- git show
+- git show 4faa7df241ef2f8353c8ad61d86a565256b1234b
+
+
+
+
+
+
+
