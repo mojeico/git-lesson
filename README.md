@@ -57,6 +57,23 @@
 
 - git checkout feature
 - git checkout -b feature   -> create branch + checkout 
+- git checkout -f branch_name -> delete uncommit files and changes 
+
+
+
+
+
+
+
+# Git save uncommited files before checkout to another branch 
+
+- git stash - save your uncommited files without commit
+- git stash pop - return uncommited files 
+
+
+
+
+
 
 
 
